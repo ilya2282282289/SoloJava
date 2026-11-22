@@ -77,4 +77,8 @@ resources_index.json
 access_widener_index.json
 
 # Don't ignore libraries
-!libs/*.jar
+!libs/*.jar.gradle-user/
+.gradle/
+build/
+run/
+.idea/

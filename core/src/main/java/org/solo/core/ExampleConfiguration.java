@@ -1,4 +1,4 @@
-package org.example.core;
+package org.solo.core;
 
 import net.labymod.api.addon.AddonConfig;
 import net.labymod.api.client.gui.screen.widget.widgets.input.SwitchWidget.SwitchSetting;
@@ -10,6 +10,8 @@ public class ExampleConfiguration extends AddonConfig {
 
   @SwitchSetting
   private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
+  @SwitchSetting
+  private final ConfigProperty<Boolean> showNotifications = new ConfigProperty<>(true);
 
   @Override
   public ConfigProperty<Boolean> enabled() {
